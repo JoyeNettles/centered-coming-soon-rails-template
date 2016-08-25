@@ -1,0 +1,20 @@
+.coming-soon-text{
+  font-weight: 100;
+  font-size: 3vh;
+}
+
+.coming-soon-image{
+  height: 35vh;
+}
+
+.center-parent {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.center-parent .center-body {
+  display: table-cell;
+  vertical-align: middle;
+}
