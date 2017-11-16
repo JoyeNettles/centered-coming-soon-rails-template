@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TheMelaninSurvivalGuide</title>
+  <%= favicon_link_tag 'temp-logo.png' %>
+  <title>Your Website Title</title>
+
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Coming Soon Keywords">
+  <meta name="author" content="Joye Nettles">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website Description">
+  <meta property="og:image" content='<%= image_url 'temp-logo.png' %>'/>
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
