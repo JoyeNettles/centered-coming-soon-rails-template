@@ -15,4 +15,4 @@ RAILS_ENV=production bundle exec rake assets:precompile
 echo "---------------------------------------------------------------"
 printf "\n"
 
-git st
+git status
