@@ -18,7 +18,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'actionview', '>= 4.2.11.1'
 gem 'activejob', '>= 4.2.11'
 
-
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
